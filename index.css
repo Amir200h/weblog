@@ -44,11 +44,6 @@
   .container-fluid{
     width: 100%;
     height: auto;
-    line-height: 70px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
   }
   .container{
     max-width: 1200px;
@@ -197,7 +192,6 @@
 
 .post{
   direction: rtl;
-  /* border: 1px solid rgb(176, 174, 174); */
   border-radius: 5px;
   margin-bottom: 15px;
   background: linear-gradient(rgb(202, 225, 250), transparent);
@@ -319,17 +313,15 @@
 
 
 
-.footer ul{
-  display: flex;
+/* ---> Footer <--- */
+
+.footer{
+  text-align: center;
+  width: 100%;
+  height: auto;
+  background-color: #3b3b3b;
+  padding: 4rem 2rem;
+  color: rgb(202, 198, 198);
+  font-size: 1rem;
+  line-height: 2rem;
 }
-
-  .footer{
-    text-align: center;
-    width: 100%;
-    height: auto;
-    background-color: violet;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-
