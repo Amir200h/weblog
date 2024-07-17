@@ -158,10 +158,21 @@
   right: 0;
   direction: rtl;
   display: none;
+  transition: display 0.5s;
 }
 .humberger-menu-list ul li{
   list-style-type: none;
   margin: 1rem;
+  border-bottom: 1px solid rgb(142, 142, 142);
+  
+}
+.humberger-menu-list ul li a{
+  text-decoration: none;
+}
+.humberger-menu-list ul li:first-child{
+  background: linear-gradient(rgb(249, 96, 96),rgb(250, 195, 195),rgb(249, 96, 96));
+  text-align: center;
+  font-family: 'lalezar';
 }
 
 
