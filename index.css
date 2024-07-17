@@ -12,24 +12,8 @@
     padding: 0;
   }
   body{
-    /* text-align: center; */
     font-size: 25px;
-    background-color: aliceblue;
-  }
-  .blue{
-    background-color: blue;
-  }
-  .red{
-    background-color: red;
-  }
-  .green{
-    background-color: green;
-  }
-  .violet{
-    background-color: violet;
-  }
-  [class ^= 'col-']{
-    padding: 5px;
+    /* background-color: rgb(202, 225, 250); */
   }
 
   .logo{
@@ -138,11 +122,58 @@
 .vazir{
   font-family: 'vazir';
 }
-
-  .nav{
-    height: 50px;
-    background-color: red;
+.bg-color{
+  background-color: rgb(202, 225, 250);
+}
+/* 
+---> navbar <--- */
+  .navbar{
+    width: 100%;
+    height: 3rem;
+    margin-top: 0.7rem;
+    font-size: 1rem;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   }
+
+.navbar-left-box-image{
+  /* width: 20%; */
+  padding-left: 10px;
+}
+
+.navbar-right{
+  /* width: 80%; */
+  /* display: flex; */
+  direction: rtl;
+  padding: 0 1rem;
+}
+
+.navbar-right-menu-list ul{
+  list-style: none;
+}
+.navbar-right-menu-list ul li{
+  display: inline;
+  padding: 0 0.5rem;
+  text-decoration: none;
+}
+.navbar-right-menu-list ul li a{
+  text-decoration: none;
+  background-color: rgb(202, 222, 249);
+  padding: 5px;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+}
+.navbar-right-menu-list ul li a:hover{
+  background-color: rgb(140, 190, 254);
+  color: white;
+}
+
+
 
   .intro-title{
     background-color: rgb(202, 225, 250);
@@ -185,6 +216,7 @@
   align-content: flex-end;
   font-size: 2rem;
   padding: 5px;
+  margin-right: 10px;
   border-right: 10px solid rgb(66, 66, 189);
   border-radius: 5px;
   margin-bottom: 5px;
@@ -193,6 +225,7 @@
 .post{
   direction: rtl;
   border-radius: 5px;
+  margin-right: 10px;
   margin-bottom: 15px;
   background: linear-gradient(rgb(202, 225, 250), transparent);
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -229,6 +262,8 @@
 .post-desc{
   font-family: 'vazir';
   font-size: 1rem;
+  padding: 10px;
+  text-align: justify;
 }
 .post-desc::after{
   content: 'ادامه مطلب';
