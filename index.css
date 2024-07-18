@@ -15,7 +15,10 @@
     font-size: 25px;
     /* background-color: rgb(202, 225, 250); */
   }
-
+.night-body{
+  background-color: black;
+  color: white;
+}
   .logo{
     height: 50px;
     padding-right: 15px;
@@ -173,6 +176,7 @@
   background: linear-gradient(rgb(249, 96, 96),rgb(250, 195, 195),rgb(249, 96, 96));
   text-align: center;
   font-family: 'lalezar';
+  cursor: pointer;
 }
 
 
@@ -199,12 +203,25 @@
     border-radius: 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   }
-
-.navbar-left-box-image{
-  /* width: 20%; */
-  padding-left: 10px;
+.navbar-left{
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  padding-left: 5px;
 }
-
+.navbar-left-box-image{
+  width: 20%;
+  padding-left: 10px;
+  margin-right: 15px;
+  
+}
+#night-btn{
+  font-size: 1.2rem;
+}
+#sun-btn{
+  font-size: 1.2rem;
+  display: none;
+}
 .navbar-right{
   /* width: 80%; */
   /* display: flex; */
